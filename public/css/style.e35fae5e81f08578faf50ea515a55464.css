@@ -1,0 +1,1099 @@
+@media (max-width: 767px) {
+  .hidden-xs,
+  tr.hidden-xs,
+  th.hidden-xs,
+  td.hidden-xs {
+    display: none !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .hidden-sm,
+  tr.hidden-sm,
+  th.hidden-sm,
+  td.hidden-sm {
+    display: none !important;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .hidden-md,
+  tr.hidden-md,
+  th.hidden-md,
+  td.hidden-md {
+    display: none !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .hidden-lg,
+  tr.hidden-lg,
+  th.hidden-lg,
+  td.hidden-lg {
+    display: none !important;
+  }
+}
+
+/********* HELVETICA NEUE  ***************/
+@font-face {
+  font-family: "High Tide";
+  src: url("../fonts/HighTide.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+
+.relative {
+  position: relative;
+}
+
+.fullWidth {
+  width: 100%;
+}
+
+.negativeIndent {
+  text-indent: -999999px;
+}
+
+.makeDiv {
+  display: inline-block;
+}
+
+.centeredImage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.reverseFloat {
+  float: right;
+}
+
+@media only screen and (max-width: 767px) {
+  .reverseFloat {
+    float: none;
+  }
+}
+
+.italic {
+  font-style: italic;
+}
+
+.noMargin {
+  margin: 0;
+}
+
+.noMarginTop {
+  margin-top: 0;
+}
+
+.noMarginBottom {
+  margin-bottom: 0;
+}
+
+.noMarginLeft {
+  margin-left: 0;
+}
+
+.noMarginRight {
+  margin-right: 0;
+}
+
+.noPadding {
+  padding: 0;
+}
+
+.noPaddingTop {
+  padding-top: 0;
+}
+
+.noPaddingBottom {
+  padding-bottom: 0;
+}
+
+.noPaddingLeft {
+  padding-left: 0;
+}
+
+.noPaddingRight {
+  padding-right: 0;
+}
+
+.grayscale {
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  /* For Webkit browsers */
+  filter: gray;
+  /* For IE 6 - 9 */
+  -webkit-transition: all .4s ease;
+  /* Transition for Webkit browsers */
+}
+
+.grayscale:hover {
+  filter: grayscale(0%);
+  -webkit-filter: grayscale(0%);
+  filter: none;
+}
+
+.invertscale {
+  filter: invert(50%);
+  -webkit-filter: invert(50%);
+  /* For Webkit browsers */
+  filter: gray;
+  /* For IE 6 - 9 */
+  -webkit-transition: all .4s ease;
+  /* Transition for Webkit browsers */
+}
+
+.invertscale:hover {
+  filter: invert(0%);
+  -webkit-filter: invert(0%);
+  filter: none;
+}
+
+/* columns of same height styles */
+.container-xs-height {
+  display: table;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.row-xs-height {
+  display: table-row;
+}
+
+.col-xs-height {
+  display: table-cell;
+  float: none;
+}
+
+@media (min-width: 768px) {
+  .container-sm-height {
+    display: table;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .row-sm-height {
+    display: table-row;
+  }
+  .col-sm-height {
+    display: table-cell;
+    float: none;
+  }
+}
+
+@media (min-width: 992px) {
+  .container-md-height {
+    display: table;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .row-md-height {
+    display: table-row;
+  }
+  .col-md-height {
+    display: table-cell;
+    float: none;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container-lg-height {
+    display: table;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .row-lg-height {
+    display: table-row;
+  }
+  .col-lg-height {
+    display: table-cell;
+    float: none;
+  }
+}
+
+/* vertical alignment styles */
+.col-top {
+  vertical-align: top;
+}
+
+.col-middle {
+  vertical-align: middle;
+}
+
+.col-bottom {
+  vertical-align: bottom;
+}
+
+.rowNo, .contNo, .colNo {
+  padding-left: 0;
+  padding-right: 0;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.navbar.bg-light {
+  background: #f2f3f2;
+}
+
+.navbar-light .navbar-nav .nav-link, .navbar-light .navbar-nav .nav-link {
+  color: #312e2f;
+}
+
+.logoArea {
+  background-image: url("../img/top-gradient.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  padding: 30px 0;
+}
+
+.searchSubmit {
+  position: absolute;
+  top: 3px;
+  right: 8px;
+  background: transparent;
+  height: 38px;
+  border: none;
+  cursor: pointer;
+}
+
+.searchInput {
+  font-size: 12px;
+}
+
+::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  font-size: 12px;
+}
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  font-size: 12px;
+}
+
+:-ms-input-placeholder {
+  /* IE 10+ */
+  font-size: 12px;
+}
+
+:-moz-placeholder {
+  /* Firefox 18- */
+  font-size: 12px;
+}
+
+.languageLink {
+  background: #3f3c3c;
+  width: 31px;
+  height: 31px;
+  border-radius: 50%;
+  color: #ffffff !important;
+  margin-top: 7px;
+  padding-top: 6px;
+  padding-right: 6px !important;
+  padding-left: 6px !important;
+  margin-right: 10px;
+  font-size: 13px;
+}
+
+.navbar-nav .nav-link:not(.languageLink) {
+  padding-right: 1rem !important;
+  padding-left: 1rem !important;
+}
+
+.wyndhamContainer {
+  padding: 70px 0 30px;
+}
+
+.wyndhamContainer .footerLinks {
+  margin-top: 50px;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.wyndhamContainer .footerLinks a {
+  display: inline-block;
+  margin: 0 20px;
+  font-weight: 300;
+  font-size: 18px;
+  color: #312e2f;
+}
+
+.wyndhamContainer .copyright {
+  text-align: center;
+  font-size: 13px;
+}
+
+footer {
+  text-align: center;
+  padding-bottom: 50px;
+  font-size: 12px;
+}
+
+footer a {
+  color: #312e2f;
+  font-size: 12px;
+}
+
+.sliderSayHello {
+  position: absolute;
+  top: 0px;
+  left: 100px;
+  z-index: 999999;
+}
+
+.carousel-indicators {
+  top: 50px;
+  bottom: auto;
+  left: auto;
+}
+
+.carousel-indicators li {
+  cursor: pointer;
+}
+
+.reservationsRow {
+  background: rgba(0, 0, 0, 0.2);
+  padding: 20px 20px 0;
+  z-index: 999999;
+}
+
+.reservationsRow .form-group label {
+  color: #000 !important;
+}
+
+.reservationsRow .centeredLabel {
+  text-align: center;
+}
+
+.reservationsAbsolute {
+  background: rgba(255, 255, 255, 0.6) !important;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .reservationsAbsolute {
+    position: static;
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .reservationsAbsolute {
+    position: static;
+  }
+}
+
+#wyndhamRedirector {
+  display: inline-block;
+  color: #cf1138;
+  background: #fff;
+  padding: 5px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  border: 1px solid #cf1138;
+  margin-top: 7px;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+
+#wyndhamRedirector:hover {
+  background: #cf1138;
+  color: #ffffff;
+}
+
+.sliderSayHelloRed {
+  margin-top: 7px;
+}
+
+.reservationLine {
+  display: block;
+  color: #fff;
+  background: #cf1138;
+  padding: 6px 12px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  border: 1px solid #cf1138;
+  transition: all 0.3s ease-in-out;
+}
+
+.reservationLine:hover {
+  color: white;
+}
+
+.sliderCaptionBorderRight {
+  border-right: 1px solid #fff;
+}
+
+.homeQuickInfoBorderRight {
+  border-right: 1px solid #312e2f;
+}
+
+h1 {
+  font-weight: 300;
+  font-size: 32px;
+}
+
+.homeQuickInfoRow {
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.homeQuickInfo {
+  font-size: 16px;
+}
+
+.homeQuickInfo a {
+  padding-left: 70px;
+  color: #312e2f;
+  display: block;
+  height: 64px;
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+
+.homeQuickInfo a:hover {
+  color: #312e2f;
+}
+
+.homeQuickInfo a.address {
+  line-height: 32px;
+  background-image: url("../img/icons/map.png");
+}
+
+.homeQuickInfo a.phone {
+  line-height: 64px;
+  background-image: url("../img/icons/phone.png");
+}
+
+.homeQuickInfo a.mail {
+  line-height: 64px;
+  background-image: url("../img/icons/mail.png");
+}
+
+.followUsRow {
+  text-align: center;
+  font-size: 18px;
+  line-height: 48px;
+  padding-bottom: 40px;
+}
+
+.followUsRow .col-md-12 {
+  text-align: center;
+}
+
+.followUsRow .col-md-12 a {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.discoverRow {
+  margin-top: 70px;
+  padding-bottom: 40px;
+}
+
+.discoverRow .col-md-12 {
+  text-align: center;
+}
+
+.discoverRow h3 {
+  font-size: 16px;
+}
+
+.homeFeaturetteCaption {
+  position: absolute;
+  bottom: 0;
+  left: 15px;
+  background: #ffffff;
+  color: #312e2f;
+  font-size: 18px;
+  width: 200px;
+  padding: 6px 18px;
+  z-index: 999;
+  transition: all 0.3s ease-in-out;
+}
+
+.homeFeaturetteCaption:hover {
+  color: #312e2f;
+}
+
+.featuretteHover {
+  position: absolute;
+  top: 0;
+  left: 15px;
+  right: 15px;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.7);
+  padding: 10px;
+  z-index: 99;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.homeFeaturette:hover .homeFeaturetteCaption {
+  bottom: 50px;
+}
+
+.homeFeaturette:hover .featuretteHover {
+  opacity: 1;
+}
+
+.bulletinForm {
+  margin-top: 20px;
+}
+
+.bulletinBorderLeft {
+  border-left: 1px solid #312e2f;
+  padding-top: 50px;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.bulletinSubmit {
+  border: 1px solid #cf1138;
+  background: #ffffff;
+  color: #cf1138;
+  box-shadow: none;
+  outline: 0;
+  padding: 6px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.3s ease-in-out;
+}
+
+.bulletinSubmit:hover {
+  background: #cf1138;
+  color: #ffffff;
+}
+
+.bulletinAlignRight {
+  text-align: right;
+}
+
+.bulletinLessTopPadding {
+  padding-top: 0px;
+}
+
+.contentCarousel {
+  padding: 0 30px;
+}
+
+.contentCarousel .carousel-control-next, .contentCarousel .carousel-control-prev {
+  position: absolute;
+  width: 40px;
+  opacity: 1;
+}
+
+.contentCarousel .carousel-control-next i, .contentCarousel .carousel-control-prev i {
+  font-size: 24px;
+  color: #cf1138;
+}
+
+.contentCarousel .carousel-control-prev {
+  left: -5px;
+}
+
+.contentCarousel .carousel-control-next {
+  right: -5px;
+}
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 19111984;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+@media only screen and (max-width: 767px) {
+  .popup {
+    display: none !important;
+  }
+}
+
+.popup .relative {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.popup .mainContainer {
+  position: relative;
+  height: 100%;
+}
+
+.popup .thePopup {
+  position: absolute;
+  top: 15%;
+  left: 0;
+  right: 0;
+}
+
+.popup .closePopup {
+  width: 24px;
+  height: 25px;
+  background: url("../img/close.png") no-repeat center center;
+  display: inline-block;
+  z-index: 99111984;
+  position: absolute;
+  top: -10px;
+  right: 50%;
+  margin-right: -310px;
+}
+
+body {
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1440px;
+  }
+}
+
+h1 {
+  font-family: 'Hind Siliguri', sans-serif;
+}
+
+.borderContainer {
+  border: 1px solid #838282;
+  background-image: url("../img/bottom-gradient.png");
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  min-height: 1000px;
+  padding-bottom: 30px;
+}
+
+a:hover, button:hover, .btn:hover, .form-control:hover {
+  text-decoration: none;
+  outline: none !important;
+}
+
+a:active, button:active, .btn:active, .form-control:active {
+  text-decoration: none;
+  outline: none !important;
+}
+
+a:focus, button:focus, .btn:focus, .form-control:focus {
+  text-decoration: none;
+  outline: none !important;
+}
+
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus, .form-control {
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  box-shadow: none !important;
+  outline: 0 none;
+  border-radius: 0 !important;
+}
+
+.containerTopGradient {
+  background-image: url("../img/container-top-gradient.png");
+  background-repeat: no-repeat;
+  background-position: top -2px center;
+}
+
+.mainContainer {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .mainContainer {
+    width: 90%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .mainContainer {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .mainContainer {
+    width: 90%;
+  }
+}
+
+.moreDetailLink {
+  color: #cf1138;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.moreDetailLink:hover {
+  color: #cf1138;
+  font-weight: 400;
+}
+
+.moreDetailLinkRegular {
+  color: #cf1138;
+  font-weight: 400;
+}
+
+.moreDetailLinkRegular:hover {
+  color: #cf1138;
+}
+
+.grayBg {
+  background: #e7e8e7;
+  padding: 25px 0;
+}
+
+.sectionHeading {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.sectionHeading .controls button {
+  background: #eeeeee;
+  color: #cf1138;
+  padding: 4px 12px;
+  margin-right: 5px;
+  margin-left: 5px;
+  border: none;
+  box-shadow: none;
+  outline: 0;
+  cursor: pointer;
+}
+
+.galleryImageLink .galleryLinkCaption {
+  position: absolute;
+  background: #cf1138;
+  top: 0;
+  left: 15px;
+  right: 15px;
+  bottom: 0;
+  text-align: center;
+  color: #ffffff;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.galleryImageLink .galleryLinkCaption div {
+  position: absolute;
+  text-align: center;
+  left: 0;
+  right: 0;
+  top: 50%;
+  font-size: 14px;
+  margin-top: -20px;
+}
+
+.galleryImageLink:hover .galleryLinkCaption {
+  opacity: 0.7;
+}
+
+.galleryImageLink:hover .galleryLinkCaption i {
+  opacity: 1;
+  z-index: 9;
+}
+
+.mixitContainer {
+  margin-bottom: 70px;
+}
+
+.noPaddingTopBottom {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.noPaddingTop {
+  padding-top: 0 !important;
+}
+
+.campaignInfo {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.campaignInfo h3 {
+  color: #cf1138;
+  font-size: 18px;
+}
+
+.campaignInfo.campaignPaddingRight {
+  padding-right: 20px;
+}
+
+.campaignInfo.campaignPaddingLeft {
+  padding-left: 20px;
+}
+
+.aboutSayHello {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  font-size: 20px;
+}
+
+.ramadaItalic {
+  width: 50%;
+  padding-top: 20px;
+  margin-bottom: 20px;
+  margin-top: -2px;
+}
+
+.aboutText {
+  width: 80%;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 300;
+}
+
+.spaInfo {
+  padding-top: 40px;
+}
+
+.spaTitle {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: 'Hind Siliguri', sans-serif;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.spaText {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+  display: block;
+}
+
+.pageWithSideBar {
+  padding: 70px 30px;
+}
+
+.pageWithSideBar h2 {
+  font-weight: 300;
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-family: 'Hind Siliguri', sans-serif;
+}
+
+.pageWithSideBar h1 {
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.pageWithSideBar p {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.pageWithSideBar .restaurantInfo {
+  font-size: 15px;
+}
+
+.sidebarLink {
+  background: #eeeeee;
+  color: #cf1138;
+  display: inline-block;
+  margin-bottom: 10px;
+  padding: 4px 12px;
+  min-width: 90px;
+}
+
+.sidebarLink:hover {
+  color: #cf1138;
+}
+
+.sidebarLink.selected {
+  background: transparent;
+  color: #7f7f7f;
+  padding-left: 0;
+  font-size: 16px;
+}
+
+.galleryOf {
+  margin-top: 40px;
+}
+
+.roomInfoRow h3 {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.roomInfoRow p {
+  font-size: 16px;
+}
+
+.comfortImage {
+  width: 50%;
+}
+
+#googlemaps {
+  height: 400px;
+}
+
+.circled {
+  color: #312e2f;
+  border: 2px solid #cf1138;
+  border-radius: 12px;
+  line-height: 20px;
+  text-align: center;
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+}
+
+.mapCarousel {
+  text-align: center;
+}
+
+.mapCarousel p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.mapCarousel a {
+  color: #312e2f;
+  font-size: 20px;
+}
+
+.mapCarousel a i {
+  color: #cf1138;
+}
+
+.mapCarousel a:hover {
+  color: #312e2f;
+}
+
+.mapControl i {
+  color: #cf1138;
+  font-size: 50px;
+}
+
+.carousel-control-prev.mapControl, .carousel-control-next.mapControl {
+  opacity: 1;
+}
+
+.roomFeature {
+  display: block;
+  background-repeat: no-repeat;
+  background-position: left center;
+  line-height: 30px;
+  height: 30px;
+  padding-left: 30px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #838282;
+  margin-bottom: 6px;
+}
+
+.roomFeature.kahve {
+  background-image: url("../img/icons/features/kahve.png");
+}
+
+.roomFeature.wifi {
+  background-image: url("../img/icons/features/wifi.png");
+}
+
+.roomFeature.calisma {
+  background-image: url("../img/icons/features/calisma.png");
+}
+
+.roomFeature.dus {
+  background-image: url("../img/icons/features/dus.png");
+}
+
+.roomFeature.kat {
+  background-image: url("../img/icons/features/kat.png");
+}
+
+.roomFeature.laptop {
+  background-image: url("../img/icons/features/laptop.png");
+}
+
+.roomFeature.minibar {
+  background-image: url("../img/icons/features/minibar.png");
+}
+
+.roomFeature.sac {
+  background-image: url("../img/icons/features/sac.png");
+}
+
+.roomFeature.servis {
+  background-image: url("../img/icons/features/servis.png");
+}
+
+.roomFeature.tv {
+  background-image: url("../img/icons/features/tv.png");
+}
+
+.roomFeature.utu {
+  background-image: url("../img/icons/features/utu.png");
+}
+
+.roomFeature.banyo {
+  background-image: url("../img/icons/features/banyo.png");
+}
+
+.roomFeature.yastik {
+  background-image: url("../img/icons/features/yastik.png");
+}
+
+.roomFeature.klima {
+  background-image: url("../img/icons/features/klima.png");
+}
+
+.roomFeature.telefon {
+  background-image: url("../img/icons/features/telefon.png");
+}
+
+.roomFeature.kasa {
+  background-image: url("../img/icons/features/kasa.png");
+}
+
+.roomFeature.pc {
+  background-image: url("../img/icons/features/pc.png");
+}
+
+.tide {
+  font-family: "High Tide" !important;
+}
+
+.red-font {
+  color: #cf1138 !important;
+}
+
+.locationName {
+  font-size: 80px !important;
+}

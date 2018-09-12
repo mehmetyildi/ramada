@@ -1,0 +1,46 @@
+.popup{
+	position:fixed;
+	top: 0; 
+	left:0;
+	right:0;
+	bottom:0;
+	z-index: 19111984;
+	background: rgba(0,0,0, 0.7);
+}
+
+@media only screen and (max-width: 767px){
+	.popup{
+		display: none !important;
+	}
+}
+
+.popup .relative{
+	position:relative;
+	width:100%;
+	height:100%;
+}
+.popup .mainContainer{
+	position:relative;
+	height:100%;
+}
+.popup .thePopup{
+	position:absolute;
+	top: 15%; 
+	left:0;
+	right:0;
+}
+.popup .centeredImage{
+	width:70%;
+}
+.popup .closePopup{
+	width:24px;
+	height: 25px;
+	background: url('../img/close.png') no-repeat center center;
+	display: inline-block;
+	z-index: 99111984;
+	position:absolute;
+	top: -10px; 
+	right:50%;
+	margin-right: -310px;
+	cursor:pointer;
+}
